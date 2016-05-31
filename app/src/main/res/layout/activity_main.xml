@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        xmlns:utext="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical">
+
+        <demo.hozur.com.uytextviewdemo.UyTextView
+            android:id="@+id/utv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/str_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            utext:font="UKIJElipbe" />
+
+        <demo.hozur.com.uytextviewdemo.UyTextView
+            android:id="@+id/utv_author"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/str_author"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            utext:font="UKIJElipbe" />
+
+        <ImageView
+            android:id="@+id/iv_pic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/tomb" />
+
+
+
+        <demo.hozur.com.uytextviewdemo.UyTextView
+            android:id="@+id/utv_content"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_mellana_rumi"
+            android:textSize="14sp"
+            utext:font="UKIJElipbe" />
+
+        <ImageView
+            android:id="@+id/iv_pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/author" />
+    </LinearLayout>
+</ScrollView>
