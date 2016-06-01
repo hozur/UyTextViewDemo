@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
-        xmlns:utext="http://schemas.android.com/apk/res-auto"
+        xmlns:cool="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layoutDirection="rtl"
@@ -15,7 +15,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:scrollbars="vertical">
 
-        <demo.hozur.com.uytextviewdemo.UyTextView
+        <demo.hozur.com.uytextviewdemo.CoolTextView
             android:id="@+id/utv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,9 +25,9 @@
             android:inputType="text"
             android:text="@string/str_title"
             android:textSize="20sp"
-            utext:font="UKIJElipbe" />
+            cool:font="UKIJElipbe" />
 
-        <demo.hozur.com.uytextviewdemo.UyTextView
+        <demo.hozur.com.uytextviewdemo.CoolTextView
             android:id="@+id/utv_author"
 
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:text="@string/str_author"
             android:textSize="18sp"
             android:textStyle="italic"
-            utext:font="UKIJElipbe" />
+            cool:font="UKIJElipbe" />
 
         <ImageView
             android:id="@+id/iv_pic1"
@@ -48,14 +48,32 @@
 
 
 
-        <demo.hozur.com.uytextviewdemo.UyTextView
+        <demo.hozur.com.uytextviewdemo.CoolTextView
             android:id="@+id/utv_content"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str_mellana_rumi"
-            android:textSize="18sp"
-            utext:font="UKIJElipbe" />
+            android:textSize="26sp"
+            android:textColor="#00ff00"
+            cool:font="UKIJElipbe" />
+
+        <demo.hozur.com.uytextviewdemo.CoolTextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="خەت نۇسخىسى سەپلەنمىگەن ۋاقىتىكى كۆرۈنۈشى. ئەپلەشمىگەن ئىشمۇ ئىش جۇمۇ.. شەمسى"
+            android:textSize="26sp"
+             />
+
+        <demo.hozur.com.uytextviewdemo.CoolTextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="خەت نۇسخىسى سەپلەنمىگەن ۋاقىتىكى كۆرۈنۈشى. ئەپلەشمىگەن ئىشمۇ ئىش جۇمۇ.. شەمسى"
+            cool:font="UKIJElipbe"
+            android:textSize="26sp"
+            />
 
         <ImageView
             android:id="@+id/iv_pic2"

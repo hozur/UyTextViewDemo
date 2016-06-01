@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="UView">
+    <declare-styleable name="CoolView">
         <attr name="font" format="string" />
     </declare-styleable>
 
