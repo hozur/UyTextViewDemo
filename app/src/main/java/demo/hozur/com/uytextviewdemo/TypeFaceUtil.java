@@ -17,6 +17,7 @@ public class TypeFaceUtil {
     public static Typeface getTypeFace(Context context, AttributeSet attr) {
         TypedArray a = context.obtainStyledAttributes(attr, R.styleable.CoolView);//TypedArray是一个数组容器
         String fontName = a.getString(R.styleable.CoolView_font);//防止在XML文件里没有定义，就加上了默认值30
+        a.recycle();
         return getTypeFace(context, fontName);
     }
 
